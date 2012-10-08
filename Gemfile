@@ -4,7 +4,7 @@ gem 'cramp'
 
 # Async webserver for running a cramp application
 gem 'thin'
-
+gem 'newrelic_rpm'
 # Rack based routing
 gem 'http_router'
 

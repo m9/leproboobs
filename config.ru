@@ -1,3 +1,4 @@
+require 'newrelic_rpm'
 require './application'
 App::Application.initialize!
 
@@ -11,6 +12,10 @@ if App::Application.env == 'development'
   # Serve assets from /public
   use Rack::Static, :urls => ["/javascripts"], :root => App::Application.root(:public)
 end
+
+
+
+
 
 # Running thin :
 #

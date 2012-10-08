@@ -1,0 +1,16 @@
+# Logfile created on 2012-10-08 20:05:36 +0300 by logger.rb/31641
+[10/08/12 20:05:36 +0300 darkstar.local (21063)] INFO : Dispatcher: thin
+[10/08/12 20:05:36 +0300 darkstar.local (21063)] INFO : Application: development
+[10/08/12 20:05:36 +0300 darkstar.local (21063)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/08/12 20:05:36 +0300 darkstar.local (21063)] INFO : New Relic Ruby Agent 3.4.0.1 Initialized: pid = 21063
+[10/08/12 20:05:36 +0300 darkstar.local (21063)] INFO : Agent Log at /Users/m0s/Work/em-boobs/app/log/newrelic_agent.log
+[10/08/12 20:06:11 +0300 darkstar.local (21143)] INFO : Dispatcher: thin
+[10/08/12 20:06:11 +0300 darkstar.local (21143)] INFO : Application: development
+[10/08/12 20:06:11 +0300 darkstar.local (21143)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/08/12 20:06:11 +0300 darkstar.local (21143)] INFO : New Relic Ruby Agent 3.4.0.1 Initialized: pid = 21143
+[10/08/12 20:06:11 +0300 darkstar.local (21143)] INFO : Agent Log at /Users/m0s/Work/em-boobs/app/log/newrelic_agent.log
+[10/08/12 20:07:29 +0300 darkstar.local (21225)] INFO : Dispatcher: thin
+[10/08/12 20:07:29 +0300 darkstar.local (21225)] INFO : Application: development
+[10/08/12 20:07:29 +0300 darkstar.local (21225)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[10/08/12 20:07:29 +0300 darkstar.local (21225)] INFO : New Relic Ruby Agent 3.4.0.1 Initialized: pid = 21225
+[10/08/12 20:07:29 +0300 darkstar.local (21225)] INFO : Agent Log at /Users/m0s/Work/em-boobs/app/log/newrelic_agent.log
