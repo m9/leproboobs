@@ -5,7 +5,7 @@ require 'json'
 class RedirectAction < Cramp::Action
   def respond_with
     url = "http://www.suinoblog.com/wp-content/wet-big-boobs-arika1.jpg"
-    begin
+    begin   
       get  = Timeout::timeout(5){
         r = open("http://api.oboobs.ru/noise/1/").read
         jData = ActiveSupport::JSON.decode(r)
@@ -15,7 +15,7 @@ class RedirectAction < Cramp::Action
     rescue Timeout::Error => e
       puts "Request timeout, placeholder rendered."
     end
-    [301, {'Location' => url}]
+    [307, {'Location' => url}]
   end
 
   def start
