@@ -1,6 +1,6 @@
 class HomeAction < Cramp::Action
   def start
-    render "Hello World!"
+    render "Hello Lepra and kinzoid!"
     finish
   end
 end
